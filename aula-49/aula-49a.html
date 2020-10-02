@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery plugins - TreeView</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="jquery-treeview/jquery.treeview.css">
+    <link rel="stylesheet" href="css/aula-49.css">
+
+    <!-- JS -->
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="jquery-treeview/jquery.treeview.js"></script>
+    <script src="js/aula-49.js"></script>
+</head>
+<body>
+    
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 basico" >
+        <h5 class="titulo">jQuery plugins - TreeView</h5>
+
+        <ul id="browser" class="filetree">
+            <li><span class="folder">Folder 1</span>
+                <ul>
+                    <li><span class="file">Item 1.1</span></li>
+                </ul>
+            </li>
+            <li><span class="folder">Folder 2</span>
+                <ul>
+                    <li><span class="folder">Subfolder 2.1</span>
+                        <ul id="folder21">
+                            <li><span class="file">File 2.1.1</span></li>
+                            <li><span class="file">File 2.1.2</span></li>
+                        </ul>
+                    </li>
+                    <li><span class="file">File 2.2</span></li>
+                </ul>
+            </li>
+            <li class="closed"><span class="folder">Folder 3 (closed at start)</span>
+                <ul>
+                    <li><span class="file">File 3.1</span></li>
+                </ul>
+            </li>
+            <li><span class="file">File 4</span></li>
+        </ul>
+              
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery plugins - buttonCaptcha</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="jquery-buttonCaptcha/jquery.buttonCaptcha.styles.css">
+    <link rel="stylesheet" href="css/aula-51.css">
+
+    <!-- JS -->
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery-ui-1.12.1.js"></script>
+    <script src="jquery-buttonCaptcha/jquery.buttonCaptcha.js"></script>
+    <script src="js/aula-51.js"></script>
+</head>
+<body>
+    
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 basico" >
+        <h5 class="titulo">jQuery plugins - buttonCaptcha</h5>
+
+        <form id="form" action="tratar.php" method="POST" class="form-group" enctype="multipart/form-data">
+            <label for="nome">Nome</label>
+            <input class="form-control" type="text" name="nome" />
+            <label for="comentario">Comentário</label>
+            <textarea class="form-control" name="comentario" placeholder="Digite aqui o seu comentário!"></textarea><br />
+            <button class="btn btn-primary" id="bt-1" type="submit" >Enviar</button>
+        </form>
+                  
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+.basico{
+    border: 1px solid black;
+    padding:20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.titulo{
+    text-align: center;
+    color:brown;
+    margin-bottom: 40px;
+}
+form.cmxform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}
